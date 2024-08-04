@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header><div id="global-icon"><img src="global-icon.png"/></div><h1>International Affairs Agency</h1><div id="IAA-wappen2"><img src="IAA-wappen.webp"/></div></header>
+    <h1 class="title">Form Application</h1>
+    <form>
+        <fieldset>
+            <h3>Personal Information</h3>
+            <label><p>Name: </p>
+                <input type="text" placeholder="James Jesus" ></label>
+            <label><p>Last Name: </p>
+                <input type="text" placeholder="Angleton"></label>
+                <label><p>Age: </p>
+                    <input type="number" placeholder="00" min="0" max="99"></label>
+            <label><p>Your email address: </p>
+                    <input type="email" placeholder="angelton.james@iaa.gov"></label>
+            <label><p>Your Mobil: </p>
+                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="XXX-XXX-XX-XX"></label>
+            <label><p>Gender: </p>
+                <input type="radio" text="male" name="gender">Male
+                <input type="radio" text="male" name="gender">Female
+                <input type="radio" text="male" name="gender">Other</label>
+            <label><p>Highest Eduation: </p>
+                <select>
+                    <option>select a option</option>
+                    <option>none</option>
+                    <option>Highschool</option>
+                    <option>Apprenticeship</option>
+                    <option>Bachelor</option>
+                    <option>Master</option>
+                    <option>Phd</option>
+                    <option>Forklift-license</option>
+                    <option>Other</option>
+                </select></label>
+            <label><p>If other, specify here: </p>
+                <input type="text"></label>
+        </fieldset>
+        <fieldset>
+            <hr>
+            <h3>Questions</h3>
+            <label><p>Question 1: Are you in possession of a federal drivers license?</p>
+            <input type="radio" name="license">Yes<input type="radio" name="license">No</label>
+            <label><p>Question 2: Have you ever conducted work outside of your home state? Choose all the right answers: </p>
+            <label class="question2"><label class="states"><input type="checkbox">Alabama</label><label class="states"><input type="checkbox">Arkansas</label><label class="states"><input type="checkbox">Connecticut</label><label class="states"><input type="checkbox">Georgia</label><label class="states"><input type="checkbox">Illinois</label>
+            <label class="states"><input type="checkbox">Kansas</label><label class="states"><input type="checkbox">Maine</label><label class="states"><input type="checkbox">Alaska</label><label class="states"><input type="checkbox">California</label><label class="states"><input type="checkbox">Delaware</label>
+            <label class="states"><input type="checkbox">Hawaii</label><label class="states"><input type="checkbox">Indiana</label><label class="states"><input type="checkbox">Kentucky</label><label class="states"><input type="checkbox">Maryland</label><label class="states"><input type="checkbox">Arizona</label>
+            <label class="states"><input type="checkbox">Colorado</label><label class="states"><input type="checkbox">Florida</label><label class="states"><input type="checkbox">Idaho</label><label class="states"><input type="checkbox">Iowa</label><label class="states"><input type="checkbox">Louisiana</label></label>
+            </label>
+            <label><p>Question 3: A man of culture walks into a restaurant and orders a pizza with pineapple. What do you do? Choose the right answer: </p>
+            <input type="radio" name="donut">I ignore the gentleman.<br/><input type="radio" name="donut">I ask him if he's okay.<br/>
+            <input type="radio" name="donut">I call the authorities.<br/><input type="radio" name="donut">Man of culture?</label>
+        </fieldset>
+        <fieldset>
+            <hr>
+            <h3>Additonal Information</h3>
+            <label><p>Anything else you want to share with us?</p>
+            <textarea cols="40" rows="5" placeholder="Type here..."></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="IAA-wappen"><img src="IAA-wappen.webp"/></div>
+    <footer>
+        <div class="links"><div><p><strong>About IAA</strong></p><p>Today's IAA</p><p>Leadership</p><p>IAA Vision, Mission, Ethos</p><p>Headquarter Tour</p><p>IAA Missions</p></div>
+        <div><p><strong>Careers & Internships</strong></p><p>Career Oppertunities</p><p>Student Oppertunities</p><p>Language Oppertunities</p><p>Application Process</p></div>
+        <div><p><strong>News & Information</strong></p><p>Blog</p><p>Press Releases & Statments</p><p>Speeches & Testimony</p><p>IAA the war on terrorism</p></div>
+        <div><p><strong>Spy kids</strong></p><p>Connect with IAA</p></div>
+    </div>
+    </footer>
+</body>
+</html>
